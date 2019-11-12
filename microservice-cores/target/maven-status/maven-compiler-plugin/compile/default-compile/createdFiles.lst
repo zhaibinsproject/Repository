@@ -1,0 +1,5 @@
+cn\springcloud\book\model\TUser.class
+cn\springcloud\book\model\CommonInfo.class
+cn\springcloud\book\model\AccessRecord.class
+cn\springcloud\book\model\RequestMessage.class
+cn\springcloud\book\feign\UserFeign.class

@@ -1,0 +1,7 @@
+cn\springcloud\book\gateway\model\CommonInfo.class
+cn\springcloud\book\gateway\config\GatewayConfig.class
+cn\springcloud\book\gateway\model\RequestMessage.class
+cn\springcloud\book\gateway\model\GatewayDefine.class
+cn\springcloud\book\gateway\GatewayApplicationRedis.class
+cn\springcloud\book\gateway\filter\HoleBodyFilter.class
+cn\springcloud\book\gateway\model\AccessRecord.class

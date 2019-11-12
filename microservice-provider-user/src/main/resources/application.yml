@@ -1,0 +1,52 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: microservice-provider-user
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog
+    username: root
+    password: root123
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+#  redis:
+#    host: 47.104.237.163
+#    port: 6379
+#    password: root123
+#    database: 0
+#    jedis:
+ #     pool:
+ #       max-active: 8
+ #       max-wait: -1ms
+ #       max-idle: 8
+ #       min-idle: 0
+ #       timeout: 6000
+logging:                                # 配置日志级别，让hibernate打印出执行的SQL
+  level:
+    root: INFO
+    org.hibernate: INFO
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+
+#datasource:
+#  dbnames: default,db1
+#  default:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/ds01?useSSL=false&characterEncoding=UTF-8&useUnicode=true&autoReconnect=true&failOverReadOnly=false
+#    username: root
+#    password: root123
+#  db1:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/ds02?useSSL=false&characterEncoding=UTF-8&useUnicode=true&autoReconnect=true&failOverReadOnly=false
+#    username: root
+#    password: root123
