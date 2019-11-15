@@ -1,0 +1,15 @@
+E:\idealworkspace\microservice-project\microservice-gateway-redis\src\main\java\cn\springcloud\book\gateway\controller\RouteController.java
+E:\idealworkspace\microservice-project\microservice-gateway-redis\src\main\java\cn\springcloud\book\gateway\model\AccessRecord.java
+E:\idealworkspace\microservice-project\microservice-gateway-redis\src\main\java\cn\springcloud\book\gateway\model\GatewayDefine.java
+E:\idealworkspace\microservice-project\microservice-gateway-redis\src\main\java\cn\springcloud\book\gateway\filter\ModifyBodyGatewayFilter.java
+E:\idealworkspace\microservice-project\microservice-gateway-redis\src\main\java\cn\springcloud\book\gateway\controller\ApplicationStartup.java
+E:\idealworkspace\microservice-project\microservice-gateway-redis\src\main\java\cn\springcloud\book\gateway\filter\CustomGatewayFilterFactory.java
+E:\idealworkspace\microservice-project\microservice-gateway-redis\src\main\java\cn\springcloud\book\gateway\GatewayApplicationRedis.java
+E:\idealworkspace\microservice-project\microservice-gateway-redis\src\main\java\cn\springcloud\book\gateway\model\CommonInfo.java
+E:\idealworkspace\microservice-project\microservice-gateway-redis\src\main\java\cn\springcloud\book\gateway\model\RequestMessage.java
+E:\idealworkspace\microservice-project\microservice-gateway-redis\src\main\java\cn\springcloud\book\gateway\service\GatewayDefineService.java
+E:\idealworkspace\microservice-project\microservice-gateway-redis\src\main\java\cn\springcloud\book\gateway\service\impl\GatewayDefineServiceImpl.java
+E:\idealworkspace\microservice-project\microservice-gateway-redis\src\main\java\cn\springcloud\book\gateway\filter\CustomGatewayFilter.java
+E:\idealworkspace\microservice-project\microservice-gateway-redis\src\main\java\cn\springcloud\book\gateway\repository\GatewayDefineRepository.java
+E:\idealworkspace\microservice-project\microservice-gateway-redis\src\main\java\cn\springcloud\book\gateway\filter\CustomGlobalFilter.java
+E:\idealworkspace\microservice-project\microservice-gateway-redis\src\main\java\cn\springcloud\book\gateway\filter\ModifyBodyGatewayFilterFactory.java
